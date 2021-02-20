@@ -17,6 +17,27 @@ h1{
   color: red;
   text-align: center;
 }
+.white-key.C:active {
+  background-color: #28ff00;
+}
+.white-key.D:active {
+  background-color: #007cff;
+}
+.white-key.E:active {
+  background-color: #4500ea;
+}
+.white-key.F:active {
+  background-color: #57009e;
+}
+.white-key.G:active {
+  background-color: #b30000;
+}
+.white-key.A:active {
+  background-color: #ff6300;
+}
+.white-key.B:active {
+  background-color: #99ff00;
+}
 .black-key{
   border-radius: 0 0 3px 3px;
   background-color: black;
@@ -27,4 +48,19 @@ h1{
   z-index: 1;
   color: red;
   text-align: center;
+}
+.black-key.Db:active {
+  background-color: #00ffe8;
+}
+.black-key.Eb:active {
+  background-color: #0500ff;
+}
+.black-key.Gb:active {
+  background-color: #740000;
+}
+.black-key.Ab:active {
+  background-color: #ee0000;
+}
+.black-key.Bb:active {
+  background-color: #ffec00;
 }
