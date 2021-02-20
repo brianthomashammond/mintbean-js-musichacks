@@ -1,15 +1,24 @@
 import './App.css'
-import * as Tone from 'tone'
+import {
+    playC4,
+    playDb4,
+    playD4,
+    playEb4,
+    playE4,
+    playF4,
+    playGb4,
+    playG4,
+    playAb4,
+    playA4,
+    playBb4,
+    playB4,
+    playC5,
+} from './tone.fn.js'
 
-function playC4() {
-    const synth = new Tone.Synth().toDestination()
-    synth.triggerAttackRelease("C4", "8n")
-}
 
 function App() {
   return (
     <div>
-        <button onClick={playC4}>Play Me</button>
     </div>
   );
 }
