@@ -21,19 +21,19 @@ function App() {
         <div classname="pianoPage">
             <h1>Piano</h1>
             <div className="piano">
-                <div className="white-key">{playC4}</div>
-                <div className="black-key">{playDb4}</div>
-                <div className="white-key">{playD4}</div>
-                <div className="black-key">{playEb4}</div>
-                <div className="white-key">{playE4}</div>
-                <div className="white-key">{playF4}</div>
-                <div className="black-key">{playGb4}</div>
-                <div className="white-key">{playG4}</div>
-                <div className="black-key">{playAb4}</div>
-                <div className="white-key">{playA4}</div>
-                <div className="black-key">{playBb4}</div>
-                <div className="white-key">{playB4}</div>
-                <div className="white-key">{playC5}</div>
+                <div className="white-key" onClick={playC4}></div>
+                <div className="black-key" onClick={playDb4}></div>
+                <div className="white-key" onClick={playD4}></div>
+                <div className="black-key" onClick={playEb4}></div>
+                <div className="white-key" onClick={playE4}></div>
+                <div className="white-key" onClick={playF4}></div>
+                <div className="black-key" onClick={playGb4}></div>
+                <div className="white-key" onClick={playG4}></div>
+                <div className="black-key" onClick={playAb4}></div>
+                <div className="white-key" onClick={playA4}></div>
+                <div className="black-key" onClick={playBb4}></div>
+                <div className="white-key" onClick={playB4}></div>
+                <div className="white-key" onClick={playC5}></div>
             </div>
         </div>
     )
