@@ -29,8 +29,12 @@ function App() {
 				<Keys />
 			</div>
 			<div className='button-wrapper'>
-				<button onClick={playTwinkleTwinkle}>Twinkle Twinkle</button>
-				<button onClick={playPolyphonicExample}>Polyphonic</button>
+				<button className='temp' onClick={playTwinkleTwinkle}>
+					Twinkle Twinkle
+				</button>
+				<button className='temp' onClick={playPolyphonicExample}>
+					Polyphonic
+				</button>
 			</div>
 		</div>
 	)
