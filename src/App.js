@@ -14,13 +14,15 @@ import {
     playB4,
     playC5,
     playNote,
+    playTwinkleTwinkle,
+    playPolyphonicExample,
 } from './tone.fn.js'
 
 window.addEventListener('keydown', playNote)
 
 function App() {
     return (
-        <div classname="pianoPage">
+        <div className="pianoPage">
             <h1>Piano</h1>
             <div className="piano">
                 <div className="white-key C" onClick={playC4}>A</div>
@@ -37,6 +39,8 @@ function App() {
                 <div className="white-key B" onClick={playB4}>J</div>
                 <div className="white-key C" onClick={playC5}>K</div>
             </div>
+            <button onClick={playTwinkleTwinkle}>Twinkle Twinkle</button>
+            <button onClick={playPolyphonicExample}>Polyphonic</button>
         </div>
     )
 }
