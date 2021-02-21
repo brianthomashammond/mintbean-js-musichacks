@@ -1,74 +1,74 @@
-.pianoPage{
-  align-items: center;
+.pianoPage {
+	align-items: center;
 }
-.button-wrapper{
-display: flex;
-  justify-content: center;
-  margin-top: 10px;
+.button-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
 }
-button{
-  margin: 5px;
+button {
+	margin: 5px;
 }
-h1{
-  text-align: center;
+h1 {
+	text-align: center;
 }
-.piano{
-  display: flex;
-  justify-content: center;
+.piano {
+	display: flex;
+	justify-content: center;
 }
-.white-key{
-  border: 1px solid #000000;
-  border-radius: 0 0 4px 4px;
-  background-color: white;
-  width: 100px;
-  height: 400px;
-  color: red;
-  text-align: center;
+.white {
+	border: 1px solid #000000;
+	border-radius: 0 0 4px 4px;
+	background-color: white;
+	width: 100px;
+	height: 400px;
+	color: red;
+	text-align: center;
 }
-.white-key.C:active {
-  background-color: #28ff00;
+.white.C:active {
+	background-color: #28ff00;
 }
-.white-key.D:active {
-  background-color: #007cff;
+.white.D:active {
+	background-color: #007cff;
 }
-.white-key.E:active {
-  background-color: #4500ea;
+.white.E:active {
+	background-color: #4500ea;
 }
-.white-key.F:active {
-  background-color: #57009e;
+.white.F:active {
+	background-color: #57009e;
 }
-.white-key.G:active {
-  background-color: #b30000;
+.white.G:active {
+	background-color: #b30000;
 }
-.white-key.A:active {
-  background-color: #ff6300;
+.white.A:active {
+	background-color: #ff6300;
 }
-.white-key.B:active {
-  background-color: #99ff00;
+.white.B:active {
+	background-color: #99ff00;
 }
-.black-key{
-  border-radius: 0 0 3px 3px;
-  background-color: black;
-  width: 60px;
-  height: 250px;
-  margin-left: -30px;
-  margin-right: -30px;
-  z-index: 1;
-  color: red;
-  text-align: center;
+.black {
+	border-radius: 0 0 3px 3px;
+	background-color: black;
+	width: 60px;
+	height: 250px;
+	margin-left: -30px;
+	margin-right: -30px;
+	z-index: 1;
+	color: red;
+	text-align: center;
 }
-.black-key.Db:active {
-  background-color: #00ffe8;
+.black.Db:active {
+	background-color: #00ffe8;
 }
-.black-key.Eb:active {
-  background-color: #0500ff;
+.black.Eb:active {
+	background-color: #0500ff;
 }
-.black-key.Gb:active {
-  background-color: #740000;
+.black.Gb:active {
+	background-color: #740000;
 }
-.black-key.Ab:active {
-  background-color: #ee0000;
+.black.Ab:active {
+	background-color: #ee0000;
 }
-.black-key.Bb:active {
-  background-color: #ffec00;
+.black.Bb:active {
+	background-color: #ffec00;
 }
