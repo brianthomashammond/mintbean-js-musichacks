@@ -39,8 +39,10 @@ function App() {
                 <div className="white-key B" onClick={playB4}>J</div>
                 <div className="white-key C" onClick={playC5}>K</div>
             </div>
-            <button onClick={playTwinkleTwinkle}>Twinkle Twinkle</button>
-            <button onClick={playPolyphonicExample}>Polyphonic</button>
+            <div className="button-wrapper">
+                <button onClick={playTwinkleTwinkle}>Twinkle Twinkle</button>
+                <button onClick={playPolyphonicExample}>Polyphonic</button>
+            </div>
         </div>
     )
 }
