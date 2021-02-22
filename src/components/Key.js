@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Key = ({ note, color, qwerty, tone }) => {
-	return <button className={`${color} ${note}`} onMouseDown={tone} value={qwerty} />
+const Key = ({ note, color, tone }) => {
+	return <button className={`key ${color} ${note}`} value={tone} />
 }
 
 export default Key

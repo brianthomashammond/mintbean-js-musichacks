@@ -9,7 +9,6 @@ const Keys = () => {
 				<Key
 					note={note.note}
 					color={note.color}
-					qwerty={note.qwerty}
 					tone={note.tone}
 				/>
 			))}

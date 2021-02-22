@@ -1,12 +1,22 @@
 import './App.css'
 import {
-	playNote,
 	playTwinkleTwinkle,
-	playPolyphonicExample,
+	playTheEntertainer,
 } from './tone.fn.js'
 import Keys from './components/Keys'
+import * as Tone from 'tone'
 
-window.addEventListener('keydown', playNote)
+document.querySelectorAll('button.key').forEach(function(button){
+    const synth = new Tone.Synth().toDestination()
+    button.addEventListener('mousedown', function(e){
+        const now = Tone.now()
+        console.log("valu: ", e.target.value)
+        synth.triggerAttack(e.target.value, now)
+    })
+    button.addEventListener('mouseup', function(e){
+        synth.triggerRelease()
+    })
+})
 
 function App() {
 	return (
@@ -19,8 +29,8 @@ function App() {
 				<button className='temp' onClick={playTwinkleTwinkle}>
 					Twinkle Twinkle
 				</button>
-				<button className='temp' onClick={playPolyphonicExample}>
-					Polyphonic
+				<button className='temp' onClick={playTheEntertainer}>
+					The Entertainer
 				</button>
 			</div>
 		</div>
