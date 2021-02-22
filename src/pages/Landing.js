@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 import '../App.css'
 import music from '../assets/music.png'
 import Team from '../components/Team'
@@ -32,6 +33,9 @@ const Landing = () => {
 						<Summary />
 					</div>
 				</div>
+				<Link to='/demo'>
+					<button className='demo'>Demo</button>
+				</Link>
 			</div>
 		</Fragment>
 	)
