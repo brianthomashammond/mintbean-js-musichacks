@@ -4,19 +4,6 @@ import {
 	playTheEntertainer,
 } from './tone.fn.js'
 import Keys from './components/Keys'
-import * as Tone from 'tone'
-
-document.querySelectorAll('button.key').forEach(function(button){
-    const synth = new Tone.Synth().toDestination()
-    button.addEventListener('mousedown', function(e){
-        const now = Tone.now()
-        console.log("valu: ", e.target.value)
-        synth.triggerAttack(e.target.value, now)
-    })
-    button.addEventListener('mouseup', function(e){
-        synth.triggerRelease()
-    })
-})
 
 function App() {
 	return (
