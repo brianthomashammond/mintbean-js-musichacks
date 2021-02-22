@@ -12,12 +12,9 @@ import {
 	playBb4,
 	playB4,
 	playC5,
-	playNote,
-	playTwinkleTwinkle,
-	playPolyphonicExample,
 } from './tone.fn.js'
 
-export const notes = [
+const notes = [
 	{
 		note: 'C',
 		color: 'white',
