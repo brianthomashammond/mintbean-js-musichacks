@@ -21,9 +21,7 @@ const Landing = () => {
 					</div>
 				</div>
 				<div className='team-wrapper'>
-					<div className='member-wrapper'>
-						<Team />
-					</div>
+					<Team />
 				</div>
 				<div className='bottom-wrapper'>
 					<div className='screenshot-wrapper'>
@@ -33,9 +31,11 @@ const Landing = () => {
 						<Summary />
 					</div>
 				</div>
-				<Link to='/demo'>
-					<button className='demo'>Demo</button>
-				</Link>
+				<div className='demo-wrapper'>
+					<Link to='/demo'>
+						<button className='demo'>Demo</button>
+					</Link>
+				</div>
 			</div>
 		</Fragment>
 	)
