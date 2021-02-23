@@ -26,25 +26,25 @@ h1 {
 	color: red;
 	text-align: center;
 }
-.white.C:active {
+.white.C4:active {
 	background-color: #28ff00;
 }
-.white.D:active {
+.white.D4:active {
 	background-color: #007cff;
 }
-.white.E:active {
+.white.E4:active {
 	background-color: #4500ea;
 }
-.white.F:active {
+.white.F4:active {
 	background-color: #57009e;
 }
-.white.G:active {
+.white.G4:active {
 	background-color: #b30000;
 }
-.white.A:active {
+.white.A4:active {
 	background-color: #ff6300;
 }
-.white.B:active {
+.white.B4:active {
 	background-color: #99ff00;
 }
 .black {
@@ -59,18 +59,18 @@ h1 {
 	color: red;
 	text-align: center;
 }
-.black.Db:active {
+#Db4.key.black.Db4:active {
 	background-color: #00ffe8;
 }
-.black.Eb:active {
+.black.Eb4:active {
 	background-color: #0500ff;
 }
-.black.Gb:active {
+.black.Gb4:active {
 	background-color: #740000;
 }
-.black.Ab:active {
+.black.Ab4:active {
 	background-color: #ee0000;
 }
-.black.Bb:active {
+.black.Bb4:active {
 	background-color: #ffec00;
 }
