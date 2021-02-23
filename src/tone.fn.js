@@ -126,7 +126,7 @@ export function playTwinkleTwinkle() {
     }, 10500)
     setTimeout(function(){
         document.getElementById("Db4").style=null
-    }, 11900)
+    }, 11800)
 }
 
 export function playTheEntertainer() {
