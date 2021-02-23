@@ -50,6 +50,27 @@ h1 {
 .white.C5:active {
 	background-color: #52ff33;
 }
+.white.D5:active {
+	background-color: #3396ff;
+}
+.white.E5:active {
+	background-color: #5e1aff;
+}
+.white.F5:active {
+	background-color: #7000cc;
+}
+.white.G5:active {
+	background-color: #e60000;
+}
+.white.A5:active {
+	background-color: #ff8133;
+}
+.white.B5:active {
+	background-color: #adff33;
+}
+.white.C6:active {
+	background-color: #7dff66;
+}
 .black {
 	border-radius: 0 0 7px 7px;
 	background-color: black;
@@ -62,7 +83,7 @@ h1 {
 	color: red;
 	text-align: center;
 }
-#Db4.key.black.Db4:active {
+.black.Db4:active {
 	background-color: #00ffe8;
 }
 .black.Eb4:active {
@@ -76,4 +97,19 @@ h1 {
 }
 .black.Bb4:active {
 	background-color: #ffec00;
+}
+.black.Db5:active {
+	background-color: #33ffee;
+}
+.black.Eb5:active {
+	background-color: #3633ff;
+}
+.black.Gb5:active {
+	background-color: #b30000;
+}
+.black.Ab5:active {
+	background-color: #ff1a1a;
+}
+.black.Bb5:active {
+	background-color: #fff133;
 }
