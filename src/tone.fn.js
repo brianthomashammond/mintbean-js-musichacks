@@ -754,3 +754,13 @@ export function playTheEntertainer() {
         document.getElementById('C6').style=null
     }, 31900)
 }
+
+export function playDeColores() {
+    const now = Tone.context.currentTime
+
+    synth.triggerAttackRelease("D4", "16n", now)
+    document.getElementById('D4').style.backgroundColor=D4
+    setTimeout(function(){
+        document.getElementById('D4').style=null
+    }, 150)
+}
