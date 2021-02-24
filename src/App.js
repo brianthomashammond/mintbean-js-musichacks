@@ -1,12 +1,9 @@
 import './App.css'
 import {
-	playNote,
 	playTwinkleTwinkle,
-	playPolyphonicExample,
+	playTheEntertainer,
 } from './tone.fn.js'
 import Keys from './components/Keys'
-
-window.addEventListener('keydown', playNote)
 
 function App() {
 	return (
@@ -19,8 +16,8 @@ function App() {
 				<button className='temp' onClick={playTwinkleTwinkle}>
 					Twinkle Twinkle
 				</button>
-				<button className='temp' onClick={playPolyphonicExample}>
-					Polyphonic
+				<button className='temp' onClick={playTheEntertainer}>
+					The Entertainer
 				</button>
 			</div>
 		</div>

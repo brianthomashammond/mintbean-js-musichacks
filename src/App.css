@@ -20,57 +20,96 @@ h1 {
 	border: 1px solid #000000;
 	border-radius: 0 0 10px 10px;
 	background-color: white;
-	width: 100px;
+	width: 70px;
 	height: 400px;
   box-shadow: 0px 3px 5px #666;
 	color: red;
 	text-align: center;
 }
-.white.C:active {
+.white.C4:active {
 	background-color: #28ff00;
 }
-.white.D:active {
+.white.D4:active {
 	background-color: #007cff;
 }
-.white.E:active {
+.white.E4:active {
 	background-color: #4500ea;
 }
-.white.F:active {
+.white.F4:active {
 	background-color: #57009e;
 }
-.white.G:active {
+.white.G4:active {
 	background-color: #b30000;
 }
-.white.A:active {
+.white.A4:active {
 	background-color: #ff6300;
 }
-.white.B:active {
+.white.B4:active {
 	background-color: #99ff00;
+}
+.white.C5:active {
+	background-color: #52ff33;
+}
+.white.D5:active {
+	background-color: #3396ff;
+}
+.white.E5:active {
+	background-color: #5e1aff;
+}
+.white.F5:active {
+	background-color: #7000cc;
+}
+.white.G5:active {
+	background-color: #e60000;
+}
+.white.A5:active {
+	background-color: #ff8133;
+}
+.white.B5:active {
+	background-color: #adff33;
+}
+.white.C6:active {
+	background-color: #7dff66;
 }
 .black {
 	border-radius: 0 0 7px 7px;
 	background-color: black;
-	width: 60px;
+	width: 42px;
 	height: 250px;
   box-shadow: 0px 3px 5px #666;
-	margin-left: -30px;
-	margin-right: -30px;
+	margin-left: -21px;
+	margin-right: -21px;
 	z-index: 1;
 	color: red;
 	text-align: center;
 }
-.black.Db:active {
+.black.Db4:active {
 	background-color: #00ffe8;
 }
-.black.Eb:active {
+.black.Eb4:active {
 	background-color: #0500ff;
 }
-.black.Gb:active {
+.black.Gb4:active {
 	background-color: #740000;
 }
-.black.Ab:active {
+.black.Ab4:active {
 	background-color: #ee0000;
 }
-.black.Bb:active {
+.black.Bb4:active {
 	background-color: #ffec00;
+}
+.black.Db5:active {
+	background-color: #33ffee;
+}
+.black.Eb5:active {
+	background-color: #3633ff;
+}
+.black.Gb5:active {
+	background-color: #b30000;
+}
+.black.Ab5:active {
+	background-color: #ff1a1a;
+}
+.black.Bb5:active {
+	background-color: #fff133;
 }

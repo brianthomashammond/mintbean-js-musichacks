@@ -1,7 +1,16 @@
 import React from 'react'
+import * as Tone from 'tone'
 
-const Key = ({ note, color, qwerty, tone }) => {
-	return <button className={`${color} ${note}`} onMouseDown={tone} value={qwerty} />
+const Key = ({ color, tone }) => {
+    const synth = new Tone.Synth().toDestination()
+    const now = Tone.now()
+    return <button
+        id={tone}
+        className={`key ${color} ${tone}`}
+        onMouseDown={(e) => synth.triggerAttack(e.target.value, now)}
+        onMouseUp={(e) => synth.triggerRelease()}
+        value={tone}
+    />
 }
 
 export default Key
