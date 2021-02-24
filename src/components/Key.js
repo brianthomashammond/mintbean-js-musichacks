@@ -8,7 +8,8 @@ const Key = ({ color, tone }) => {
         id={tone}
         className={`key ${color} ${tone}`}
         onMouseDown={(e) => synth.triggerAttack(e.target.value, now)}
-        onMouseUp={(e) => synth.triggerRelease()}
+        onMouseUp={() => synth.triggerRelease()}
+        onMouseOut={() => synth.triggerRelease()}
         value={tone}
     />
 }

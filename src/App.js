@@ -4,6 +4,7 @@ import './App.css'
 import {
 	playTwinkleTwinkle,
 	playTheEntertainer,
+	playDeColores,
 } from './tone.fn.js'
 import Piano from './pages/Piano'
 import Landing from './pages/Landing'
