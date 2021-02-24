@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
 	margin: 0;
@@ -7,52 +7,37 @@
 }
 
 body {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #68bb23;
 }
 
 /* Landing Page */
 
 .landing-container {
-	padding: 50px;
 	width: 100%;
 }
 
 /* Head Section */
-
-.head-wrapper {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	margin-bottom: 50px;
+.hero-wrapper {
+	width: 100%;
 }
 
-.image-wrapper {
-	margin-right: 50px;
-}
-
-.image-wrapper img {
-	width: 100px;
-}
-
-.title-wrapper {
-	padding: 5px;
-}
-
-.title-wrapper h3 {
-	float: right;
-	font-size: 1rem;
-}
-
-.app-title {
-	font-family: 'Special Elite', cursive;
-	font-size: 3rem;
+.hero-img {
+	width: 100%;
 }
 
 /* Team Section */
 
 .team-wrapper {
+	padding: 50px 0;
 	text-align: center;
-	margin-bottom: 50px;
+	background-color: #feca00;
+}
+
+.team-title {
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #4c9730;
 }
 
 .team-member {
@@ -60,17 +45,21 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	font-weight: bold;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	color: #4c9730;
 }
 
 .team-member img {
-	width: 150px;
-	margin-left: 20px;
-	margin-right: 20px;
+	height: 200px;
+	margin: 25px 35px 10px 35px;
 }
 
 /* Bottom Section */
 
 .bottom-wrapper {
+	padding: 50px 50px 0 50px;
 	display: flex;
 	margin-bottom: 50px;
 }
@@ -86,6 +75,9 @@ body {
 
 .summary-content {
 	padding: 20px;
+	background-color: #feca00;
+	text-align: justify;
+	color: #710ef1;
 }
 
 /* Demo Button */
@@ -93,15 +85,18 @@ body {
 .demo-wrapper {
 	display: flex;
 	justify-content: center;
+	padding-bottom: 50px;
 }
 
 .demo {
 	color: #fff;
 	font-weight: bold;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	text-decoration: none;
-	background: #ed3330;
+	background: #feca00;
+	color: #4c9730;
 	padding: 20px;
 	border-radius: 5px;
 	display: inline-block;
@@ -111,7 +106,8 @@ body {
 }
 
 .demo:hover {
-	background: #434343;
+	background: #8226fa;
+	color: #4c9730;
 	letter-spacing: 1px;
 	box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
 	transition: all 0.4s ease 0s;

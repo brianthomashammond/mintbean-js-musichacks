@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
-import music from '../assets/music.png'
+import hero from '../assets/hero.png'
 import Team from '../components/Team'
 import Summary from '../components/Summary'
 import Screenshot from '../components/Screenshot'
@@ -10,17 +10,11 @@ const Landing = () => {
 	return (
 		<Fragment>
 			<div className='landing-container'>
-				<div className='head-wrapper'>
-					<div className='image-wrapper'>
-						<img src={music} alt='music notes' />
-					</div>
-
-					<div className='title-wrapper'>
-						<h1 className='app-title'>Baby Bach</h1>
-						<h3>by Band-O-Three</h3>
-					</div>
+				<div className='hero-wrapper'>
+					<img className='hero-img' src={hero} alt='Baby Bach Title Image' />
 				</div>
 				<div className='team-wrapper'>
+					<h3 className='team-title'>Our Team</h3>
 					<Team />
 				</div>
 				<div className='bottom-wrapper'>

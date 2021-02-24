@@ -4,12 +4,11 @@ const Summary = () => {
 	return (
 		<Fragment>
 			<div className='summary-content'>
-				<h3>About Baby Bach</h3>
+				<h3>About the Baby Bach App</h3>
 				<br />
 				<p>
 					Does your little one love to dance to some tunes? Or maybe even make
-					their own? (Thinking about maybe saying is your little one an upcoming
-					musical prodigy or something idk)
+					their own? Then Baby Bach is here!
 				</p>
 				<br />
 				<p>
