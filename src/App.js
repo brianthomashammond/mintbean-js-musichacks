@@ -2,14 +2,11 @@ import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
 import {
-	playNote,
 	playTwinkleTwinkle,
-	playPolyphonicExample,
+	playTheEntertainer,
 } from './tone.fn.js'
 import Piano from './pages/Piano'
 import Landing from './pages/Landing'
-
-window.addEventListener('keydown', playNote)
 
 function App() {
 	return (

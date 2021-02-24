@@ -7,9 +7,8 @@ const Keys = () => {
 		<Fragment>
 			{notes.map(note => (
 				<Key
-					note={note.note}
+                    id={note.id}
 					color={note.color}
-					qwerty={note.qwerty}
 					tone={note.tone}
 				/>
 			))}
