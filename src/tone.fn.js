@@ -1,6 +1,6 @@
 import * as Tone from 'tone'
 
-const synth = new Tone.Synth().toDestination()
+const synth = new Tone.MonoSynth().toDestination()
 const C4 = "#28ff00"
 const Db4 = "#00ffe8"
 const D4 = "#007cff"
