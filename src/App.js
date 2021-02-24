@@ -2,6 +2,7 @@ import './App.css'
 import {
 	playTwinkleTwinkle,
 	playTheEntertainer,
+	playDeColores,
 } from './tone.fn.js'
 import Keys from './components/Keys'
 
@@ -18,6 +19,9 @@ function App() {
 				</button>
 				<button className='temp' onClick={playTheEntertainer}>
 					The Entertainer
+				</button>
+                <button className='temp' onClick={playDeColores}>
+					De Colores
 				</button>
 			</div>
 		</div>
