@@ -11,7 +11,7 @@ const Landing = () => {
 		<Fragment>
 			<div className='landing-container'>
 				<div className='hero-wrapper'>
-					<img className='hero-img' src={hero} alt='Baby Bach Title Image' />
+					<img className='hero-img' src={hero} alt='ColorPlunk! Title Image' />
 				</div>
 				<div className='team-wrapper'>
 					<h3 className='team-title'>Our Team</h3>
@@ -27,7 +27,7 @@ const Landing = () => {
 				</div>
 				<div className='demo-wrapper'>
 					<Link to='/demo'>
-						<button className='demo'>Demo</button>
+						<button className='demo'>PLAY!</button>
 					</Link>
 				</div>
 			</div>

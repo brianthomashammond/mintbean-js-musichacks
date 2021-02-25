@@ -1,10 +1,8 @@
-import React, { Fragment } from 'react'
+
+import React, { useState } from 'react'
 import '../App.css'
-import {
-	playTwinkleTwinkle,
-	playDeColores,
-	playTheEntertainer,
-} from '../tone.fn.js'
+import { playTwinkleTwinkle, playTheEntertainer, playDeColores } from '../tone.fn.js'
+
 import Keys from '../components/Keys'
 import colors from '../assets/colors.png'
 import ent from '../assets/ent.png'
@@ -14,42 +12,42 @@ import trumpet from '../assets/trumpet.png'
 import spaceship from '../assets/spaceship.png'
 import title from '../assets/title-img.png'
 
+
+
 const Piano = () => {
-	return (
-		<Fragment>
-			<div className='pianoPage'>
-				<div className='title-wrapper'>
-					<img className='title-image' src={title} alt='colorplunk!' />
-				</div>
 
-				<div className='button-wrapper'>
-					<button className='song-button' onClick={playTwinkleTwinkle}>
-						<img src={stars} alt='Three stars in a box' />
-					</button>
-					<button className='song-button' onClick={playDeColores}>
-						<img src={colors} alt='3D circle of colors' />
-					</button>
-					<button className='song-button' onClick={playTheEntertainer}>
-						<img src={ent} alt='Top hat with monocle and mustache' />
-					</button>
-				</div>
-				<div className='piano-wrapper'>
-					<div className='piano'>
-						<Keys />
-					</div>
-				</div>
 
-				<div className='voice-wrapper'>
-					<button className='voice-button'>
-						<img src={piano} alt='keyboard' />
-					</button>
-					<button className='voice-button'>
-						<img src={trumpet} alt='trumpet' />
-					</button>
-					<button className='voice-button'>
-						<img src={spaceship} alt='girl in a spaceship' />
-					</button>
-				</div>
+    const [instrument, setInstrument] = useState('piano')
+
+    return (
+		<div className='pianoPage'>
+			<h1>ColorPlunk!</h1>
+            <div className='button-wrapper'>
+                <button className='temp' onClick={() => playTwinkleTwinkle(instrument)}>
+					Twinkle Twinkle
+				</button>
+				<button className='temp' onClick={() => playTheEntertainer(instrument)}>
+					The Entertainer
+				</button>
+                <button className='temp' onClick={() => playDeColores(instrument)}>
+					De Colores
+				</button>
+            </div>
+			<div className='piano'>
+				<Keys instrument={instrument}
+            />
+			</div>
+			<div className='button-wrapper'>
+                <button className='temp' onClick={()=> setInstrument('piano')}>
+					Piano
+				</button>
+				<button className='temp' onClick={()=> setInstrument('trumpet')}>
+					Trumpet
+				</button>
+                <button className='temp' onClick={()=> setInstrument('spaceship')}>
+					Spaceship
+				</button>
+
 			</div>
 		</Fragment>
 	)
