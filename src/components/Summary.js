@@ -12,10 +12,7 @@ const Summary = () => {
 				</p>
 				<br />
 				<p>
-					ColorPlunk! is a React application utilizing Tone.js that features an
-					interactive piano that not only plays classic songs (Twinkle
-					Twinkle, De Colores, etc.) but also allows for young ones to make
-					their own music!
+					ColorPlunk! is a React application utilizing Tone.js that features an interactive piano that not only plays classic songs (Twinkle Twinkle, De Colores, etc.) but also allows for young ones to plunk out their own!
 				</p>
 				<br />
 				<p>
@@ -24,7 +21,7 @@ const Summary = () => {
                 </p>
                 <br />
                 <p>    
-                    The musical experience is visual, awesome and fun!
+                    Press an instrument to hear that voice, push a picture to hear that song, or play the keys yourself - the musical experience is visual, awesome and fun!
                 </p>
                 <br />
                 <p>     
