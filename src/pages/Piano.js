@@ -26,30 +26,30 @@ const Piano = () => {
 				</div>
 
 				<div className='button-wrapper'>
-					<button className='song-button' onClick={playTwinkleTwinkle}>
+					<button className='song-button' onClick={() => playTwinkleTwinkle(instrument)}>
 						<img src={stars} alt='Three stars in a box' />
 					</button>
-					<button className='song-button' onClick={playDeColores}>
+					<button className='song-button' onClick={() => playDeColores(instrument)}>
 						<img src={colors} alt='3D circle of colors' />
 					</button>
-					<button className='song-button' onClick={playTheEntertainer}>
+					<button className='song-button' onClick={() => playTheEntertainer(instrument)}>
 						<img src={ent} alt='Top hat with monocle and mustache' />
 					</button>
 				</div>
 				<div className='piano-wrapper'>
 					<div className='piano'>
-						<Keys />
+						<Keys instrument={instrument}/>
 					</div>
 				</div>
 
 				<div className='voice-wrapper'>
-					<button className='voice-button'>
+					<button className='voice-button' onClick={()=> setInstrument('piano')}>
 						<img src={piano} alt='keyboard' />
 					</button>
-					<button className='voice-button'>
+					<button className='voice-button' onClick={()=> setInstrument('trumpet')}>
 						<img src={trumpet} alt='trumpet' />
 					</button>
-					<button className='voice-button'>
+					<button className='voice-button' onClick={()=> setInstrument('spaceship')}>
 						<img src={spaceship} alt='girl in a spaceship' />
 					</button>
 				</div>
