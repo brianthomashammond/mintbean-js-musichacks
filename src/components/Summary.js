@@ -15,7 +15,7 @@ const Summary = () => {
 				<br />
 				<p>
 					ColorPlunk! is a React application utilizing Tone.js that features an
-					interactive piano that not only plays classical/original songs(Twinkle
+					interactive piano that not only plays classic songs (Twinkle
 					Twinkle, The Entertainer and De Colores) but also allows for young
 					ones to make their own music! ColorPlunk! has incorporated not only
 					the synthesizer tones but trumpet and even spaceship tones.
