@@ -67,38 +67,6 @@ const notes = [
 		color: 'white',
 		tone: 'E5',
 	},
-	{
-		color: 'white',
-		tone: 'F5',
-	},
-	{
-		color: 'black',
-		tone: 'Gb5',
-	},
-	{
-		color: 'white',
-		tone: 'G5',
-	},
-	{
-		color: 'black',
-		tone: 'Ab5',
-	},
-	{
-		color: 'white',
-		tone: 'A5',
-	},
-	{
-		color: 'black',
-		tone: 'Bb5',
-	},
-	{
-		color: 'white',
-		tone: 'B5',
-	},
-	{
-		color: 'white',
-		tone: 'C6',
-	},
 ]
 
 export default notes
