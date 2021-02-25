@@ -21,13 +21,9 @@ const Summary = () => {
 					the synthesizer tones but trumpet and even spaceship tones.
 				</p>
 				<br />
-				{/* <p>
-					Making your own original music or following one of the original songs
-					may be difficult at first. However the keys in Baby Bach are not your
-					standard black and white piano keys. But rather they are colored keys,
-					which make it easy to remember what specific key generates which
-					distinct note. Making the musical experience visual, fun and awesome!
-				</p> */}
+				<p>
+                    Thank you to the <a href='https://mintbean.io'>Mintbean</a> family for the hackathon that inspired this creation!
+				</p>
 			</div>
 		</Fragment>
 	)
