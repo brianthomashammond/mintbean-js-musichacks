@@ -6,11 +6,7 @@ const Keys = () => {
 	return (
 		<Fragment>
 			{notes.map(note => (
-				<Key
-                    id={note.id}
-					color={note.color}
-					tone={note.tone}
-				/>
+				<Key id={note.id} color={note.color} tone={note.tone} />
 			))}
 		</Fragment>
 	)
