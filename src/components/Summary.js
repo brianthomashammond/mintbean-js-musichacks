@@ -18,7 +18,7 @@ const Summary = () => {
 					interactive piano that not only plays classic songs (Twinkle
 					Twinkle, The Entertainer and De Colores) but also allows for young
 					ones to make their own music! ColorPlunk! has incorporated not only
-					the synthesizer tones but trumpet and even spaceship tones.
+					the synthesizer tones but trumpet and even spaceship sounds.
 				</p>
 				<br />
 				<p>
