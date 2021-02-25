@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import { playTwinkleTwinkle, playPolyphonicExample } from '../tone.fn.js'
+import { playTwinkleTwinkle, playTheEntertainer, playDeColores } from '../tone.fn.js'
 import Keys from '../components/Keys'
 
 const Piano = () => {
@@ -14,8 +14,11 @@ const Piano = () => {
 				<button className='temp' onClick={playTwinkleTwinkle}>
 					Twinkle Twinkle
 				</button>
-				<button className='temp' onClick={playPolyphonicExample}>
-					Polyphonic
+				<button className='temp' onClick={playTheEntertainer}>
+					The Entertainer
+				</button>
+                <button className='temp' onClick={playDeColores}>
+					De Colores
 				</button>
 			</div>
 		</div>
