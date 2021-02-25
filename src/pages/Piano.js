@@ -1,11 +1,22 @@
+
 import React, { useState } from 'react'
 import '../App.css'
 import { playTwinkleTwinkle, playTheEntertainer, playDeColores } from '../tone.fn.js'
+
 import Keys from '../components/Keys'
+import colors from '../assets/colors.png'
+import ent from '../assets/ent.png'
+import stars from '../assets/stars.png'
+import piano from '../assets/piano.png'
+import trumpet from '../assets/trumpet.png'
+import spaceship from '../assets/spaceship.png'
+import title from '../assets/title-img.png'
 
 
 
 const Piano = () => {
+
+
     const [instrument, setInstrument] = useState('piano')
 
     return (
@@ -36,8 +47,9 @@ const Piano = () => {
                 <button className='temp' onClick={()=> setInstrument('spaceship')}>
 					Spaceship
 				</button>
+
 			</div>
-		</div>
+		</Fragment>
 	)
 }
 

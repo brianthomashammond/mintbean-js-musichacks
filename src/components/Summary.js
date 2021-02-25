@@ -8,6 +8,7 @@ const Summary = () => {
 				<br />
 				<p>
 					Does your little one love to dance to some tunes? Or maybe even make
+
 					their own? Then ColorPlunk! is here!
 				</p>
 				<br />
@@ -27,6 +28,7 @@ const Summary = () => {
                 <p>     
                     Thank you to the <a href='https://mintbean.io'>Mintbean</a> family for the hackathon that inspired this creation!
 				</p>
+
 			</div>
 		</Fragment>
 	)

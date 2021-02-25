@@ -6,12 +6,14 @@ const Keys = ({instrument}) => {
 	return (
 		<Fragment>
 			{notes.map(note => (
+
 				<Key
                     instrument={instrument}
                     id={note.tone}
 					color={note.color}
 					tone={note.tone}
 				/>
+
 			))}
 		</Fragment>
 	)

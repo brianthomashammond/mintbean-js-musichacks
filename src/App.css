@@ -18,6 +18,18 @@ body {
 }
 
 /* Head Section */
+
+.title-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.title-image {
+	width: 350px;
+}
+
 .hero-wrapper {
 	width: 100%;
 }
@@ -68,9 +80,12 @@ body {
 	width: 50%;
 }
 
+.screenshot img {
+	width: 700px;
+}
+
 .summary-wrapper {
 	width: 50%;
-	border: 2px solid black;
 }
 
 .summary-content {
@@ -78,6 +93,9 @@ body {
 	background-color: #feca00;
 	text-align: justify;
 	color: #710ef1;
+	border: 2px solid black;
+	height: 400px;
+	font-size: 1.25rem;
 }
 
 /* Demo Button */
@@ -119,19 +137,36 @@ body {
 	align-items: center;
 }
 
-.button-wrapper {
+.button-wrapper,
+.voice-wrapper {
 	display: flex;
 	justify-content: center;
 	margin-top: 10px;
 }
 
-.temp {
-	margin: 5px;
+.song-button,
+.voice-button {
+	margin: 40px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.song-button img,
+.voice-button img {
+	height: 100px;
+}
+
+.piano-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
 }
 
 .piano {
 	display: flex;
 	justify-content: center;
+	max-width: 65%;
 }
 
 .white {
@@ -139,10 +174,8 @@ body {
 	border-radius: 0 0 10px 10px;
 	background-color: white;
 	width: 100px;
-	height: 400px;
+	height: 250px;
 	box-shadow: 0px 3px 5px #666;
-	color: red;
-	text-align: center;
 }
 
 .white.C4:active {
@@ -195,13 +228,11 @@ body {
 	border-radius: 0 0 7px 7px;
 	background-color: black;
 	width: 60px;
-	height: 250px;
+	height: 147px;
 	box-shadow: 0px 3px 5px #666;
-	margin-left: -30px;
-	margin-right: -30px;
+	margin-left: -18px;
+	margin-right: -18px;
 	z-index: 1;
-	color: red;
-	text-align: center;
 }
 
 .black.Db4:active {
