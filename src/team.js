@@ -4,7 +4,7 @@ import sami from './assets/sami.png'
 
 const team = [
 	{
-		name: 'Brain',
+		name: 'Brian',
 		img: brian,
 	},
 	{

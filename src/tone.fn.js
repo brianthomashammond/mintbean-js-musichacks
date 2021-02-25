@@ -761,12 +761,12 @@ export function playTheEntertainer(instrument) {
         document.getElementById('C5').style=null
     }, 31400)
 
-    synth.triggerAttackRelease("C6", "8n", now + 31.5)
+    synth.triggerAttackRelease("C4", "8n", now + 31.5)
     setTimeout(function(){
-        document.getElementById('C6').style.backgroundColor=C6
+        document.getElementById('C4').style.backgroundColor=C4
     }, 31500)
     setTimeout(function(){
-        document.getElementById('C6').style=null
+        document.getElementById('C4').style=null
     }, 31900)
 }
 

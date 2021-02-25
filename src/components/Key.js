@@ -11,6 +11,7 @@ const Key = ({ color, tone, instrument }) => {
     } else if (instrument === 'spaceship') {
         synth = new Tone.MembraneSynth().toDestination()
     }
+
     const now = Tone.now()
     return <button
         id={tone}
