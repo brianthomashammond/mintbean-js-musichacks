@@ -8,8 +8,10 @@ const Member = ({ img, name, linkedin, github }) => {
 		<div>
 			<img src={img} alt={name} />
 			<p className='team-member-name'>{name}</p>
-			<Link className="icon" target="_blank" to={github}> <FaGithub /> </Link>
-			<Link className="icon" target="_blank" to={linkedin}> <FaLinkedin /> </Link>
+			{/* <Link className="icon" target="_blank" to={github}> <FaGithub /> </Link>
+			<Link className="icon" target="_blank" to={linkedin}> <FaLinkedin /> </Link> */}
+			<a className="icon" target="_blank" href={github}> <FaGithub /> </a>
+			<a className="icon" target="_blank" href={linkedin}> <FaLinkedin /> </a>
 		</div>
 	)
 }
