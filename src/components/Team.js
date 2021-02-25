@@ -8,7 +8,7 @@ const Team = () => {
 		<Fragment>
 			<div className='team-member'>
 				{team.map(member => (
-					<Member name={member.name} img={member.img} />
+					<Member name={member.name} img={member.img} linkedin={member.linkedin} github={member.github}/>
 				))}
 			</div>
 		</Fragment>

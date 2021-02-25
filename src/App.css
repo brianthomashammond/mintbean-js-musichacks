@@ -68,6 +68,11 @@ body {
 	margin: 25px 35px 10px 35px;
 }
 
+.icon {
+	text-decoration: none;
+	color: #710ef1
+}
+
 /* Bottom Section */
 
 .bottom-wrapper {
