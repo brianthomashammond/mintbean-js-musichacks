@@ -2,12 +2,13 @@ import React, { Fragment } from 'react'
 import Key from './Key'
 import notes from '../notes'
 
-const Keys = () => {
+const Keys = ({instrument}) => {
 	return (
 		<Fragment>
 			{notes.map(note => (
 				<Key
-                    id={note.id}
+                    instrument={instrument}
+                    id={note.tone}
 					color={note.color}
 					tone={note.tone}
 				/>

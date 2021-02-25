@@ -1,6 +1,17 @@
 import * as Tone from 'tone'
 
-export const synth = new Tone.Synth().toDestination()
+let synth
+
+const chooseInstrument = (voice) => {
+    if (voice === 'piano') {
+        synth = new Tone.Synth().toDestination()
+    } else if (voice === 'trumpet') {
+        synth = new Tone.MonoSynth().toDestination()
+    } else if (voice === 'spaceship') {
+        synth = new Tone.MembraneSynth().toDestination()
+    }
+}
+
 const C4 = "#28ff00"
 const Db4 = "#00ffe8"
 const D4 = "#007cff"
@@ -27,7 +38,9 @@ const Bb5 = "#fff133"
 const B5 = "#adff33"
 const C6 = "#7dff66"
 
-export function playTwinkleTwinkle() {
+export function playTwinkleTwinkle(instrument) {
+    chooseInstrument(instrument)
+
     const now = Tone.context.currentTime
 
     synth.triggerAttackRelease("Db4", "8n.", now)
@@ -141,7 +154,9 @@ export function playTwinkleTwinkle() {
     }, 11800)
 }
 
-export function playTheEntertainer() {
+export function playTheEntertainer(instrument) {
+    chooseInstrument(instrument)
+
     const now = Tone.context.currentTime
 
     synth.triggerAttackRelease("D4", "16n", now)
@@ -755,7 +770,9 @@ export function playTheEntertainer() {
     }, 31900)
 }
 
-export function playDeColores() {
+export function playDeColores(instrument) {
+    chooseInstrument(instrument)
+
     const now = Tone.context.currentTime
 
     synth.triggerAttackRelease("A4", "4n.", now)
@@ -1567,5 +1584,4 @@ export function playDeColores() {
     setTimeout(function(){
         document.getElementById('D5').style=null
     }, 34000)
-
 }
