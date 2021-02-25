@@ -25,6 +25,10 @@ const Summary = () => {
                 <br />
                 <p>    
                     The musical experience is visual, awesome and fun!
+                </p>
+                <br />
+                <p>     
+                    Thank you to the <a href='https://mintbean.io'>Mintbean</a> family for the hackathon that inspired this creation!
 				</p>
 			</div>
 		</Fragment>
